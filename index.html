@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF=8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wajahat - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(10, 10, 51);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: lavender;
+            font-size: 1.4rem;
+        }
+
+        main hr {
+
+            border: 0;
+            background: #9c97f1;
+            height: 1px;
+            margin: 60px 84px;
+
+
+        }
+
+        .left {
+            font-size: 1.7rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background:#1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        
+
+
+        .rightSection img {
+            width: 80%;
+            margin: 80px 0;
+        }
+
+        .purple {
+            color: rgb(149, 50, 241);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: lavender;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+
+        .secondSection h1 {
+            font-size: 1.6rem;
+
+        }
+
+        .secondSection .box {
+
+            background: white;
+            width: 75vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 65px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+        footer{
+            background-color:rgb(24, 9, 39) ;
+        }
+        .footer{
+            display: flex;
+            margin: auto;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer >div{
+            width: 230px;
+
+        }
+        footer .footer-right{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Wajahat's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/">Home</a></li>
+                    <li> <a href="/">About</a></li>
+                    <li> <a href="/">Services</a></li>
+                    <li> <a href="/">Projects</a></li>
+                    <li> <a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Wajahat</span>
+                <div>and i am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download resume</button>
+                    <button class="btn">Visit Gtihub</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt style="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"> What i have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="dts.png" alt="">
+                    <div class="vertical-title">
+                        Junior Data Analyst
+                        (Jun 2022- July 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Data gathering from different authentic sources, data analysis and cleaning all the raw data to
+                        optimize it for the product listing on amazon ebay and the client's yard management system.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="vertical-title">
+                        Rookie HTML developer
+                        (July 2023 onwards)
+                    </div>
+                    <div class="vertical-desc">
+                        Developed a portfolio website
+                        Have strong knowledge of basics of programming languages.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="python.png" alt="">
+                    <div class="vertical-title">
+                        Python Developer
+                        (July 2023 onwards)
+                    </div>
+                    <div class="vertical-desc">
+                        Developed short Projects
+                        1. Jarvis AI assistant (IDE pyCharm)
+                        2. PDF merger
+                        3. Webscraper
+                        4. Transcription program
+                        Used different libraries and modules like speechRecognition, pandas, Selenium, BeautifulSoup4,
+                        numPy
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="anon.png" alt="">
+                    <div class="vertical-title">
+                        Strong Knowledge of IT
+                        (July 2023 Onwards)
+                    </div>
+                    <div class="vertical-desc">
+                        Basics of Networking
+                        Operating Systems (Windows, Linux(Ubuntu, Kali Linux), Android)
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+         <div class="footer">
+            <div class="footer-first">
+                <h3>Wajahat's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li> <a href="/">Home</a></li>
+                    <li> <a href="/">About</a></li>
+                    <li> <a href="/">Services</a></li>
+                    <li> <a href="/">Projects</a></li>
+                    <li> <a href="/">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+            Copyright &#169; www.Wajahatportfolio.com | All rights reserved
+            </div>
+         </div>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Rookie Web Developer', 'Video Editor', 'Quick Learner', 'Content Creator', 'Blog Writer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+
+
+
+
+
+
+
+</html>
